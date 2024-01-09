@@ -12,7 +12,7 @@ function App() {
     'The only way to go fast, is to go well.'
   ]
   const [selected, setSelected] = useState(0)
-  const [votes, setVotes] = useState([0,0,0,0,0,0,0,0])
+  const [votes, setVotes] = useState(new Array(8).fill(0))
   const [newSelected, setNewSelect] = useState(0)
 
   console.log(votes)
